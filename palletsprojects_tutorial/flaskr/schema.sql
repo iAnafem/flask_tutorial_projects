@@ -1,16 +1,16 @@
 drop table if exists user;
 drop table if exists post;
 
-create TABLE user (
-    id integer primary key autoincrement,
-    username text unique not null,
-    password text not null
+CREATE TABLE user (
+    id INTEGER PRIMARY KEY AUTOINCREMENT ,
+    username TEXT UNIQUE NOT NULL ,
+    password TEXT NOT NULL
 );
 
-create table post (
-    id integer primary key AUTOINCREMENT,
-    author_id integer not null,
-    created TIMESTAMP not null default CURRENT_TIMESTAMP,
+CREATE TABLE post (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    author_id INTEGER NOT NULL,
+    created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     title TEXT NOT NULL,
     body TEXT NOT NULL,
     FOREIGN KEY (author_id) REFERENCES user (id)
