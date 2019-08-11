@@ -1,0 +1,9 @@
+1. python-dotenv
+
+Starting with version 1.0, Flask allows you to register environment
+variables that you want to be automatically imported when you run the flask command.
+Then you can just write the environment variable name and value in a
+.flaskenv file in the top-level directory of the project
+
+FLASK_APP=my_app.py
+
