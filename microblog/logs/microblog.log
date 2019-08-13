@@ -75,3 +75,8 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 [parameters: ('ololosha', "I'm a python developer", 2)]
 (Background on this error at: http://sqlalche.me/e/gkpj)
 2019-08-13 10:37:01,786 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:46]
+2019-08-13 11:46:15,548 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:46]
+2019-08-13 11:46:19,745 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:46]
+2019-08-13 12:33:37,235 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:46]
+2019-08-13 12:33:44,353 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:46]
+2019-08-13 12:44:16,866 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:46]
