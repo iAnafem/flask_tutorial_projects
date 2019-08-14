@@ -1,26 +1,22 @@
-2019-08-14 15:10:53,861 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:55]
-2019-08-14 15:10:56,570 ERROR: Exception on /explore [GET] [in d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
-    rv = self.preprocess_request()
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask\app.py", line 2241, in preprocess_request
-    rv = func()
-  File "D:\MyProjects\flask_tutorial_projects\microblog\app\routes.py", line 99, in before_request
-    g.locale = str(get_locale())
-  File "d:\myprojects\flask_tutorial_projects\microblog\venv\lib\site-packages\flask_babel\__init__.py", line 257, in get_locale
-    rv = babel.locale_selector_func()
-  File "D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py", line 60, in get_locale
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
-KeyError: 'LANGUAGES'
-2019-08-14 15:11:19,990 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:55]
-2019-08-14 15:13:43,773 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:55]
-2019-08-14 15:15:16,971 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:55]
-2019-08-14 15:18:44,063 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:55]
+2019-08-14 16:06:24,029 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:12:38,498 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:16:56,051 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:17:26,636 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:18:16,478 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:18:23,548 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:18:28,825 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:18:33,693 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:18:49,238 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:18:57,938 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:19:17,780 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:21:29,674 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:22:15,334 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:22:30,189 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:25:20,835 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:25:45,311 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:26:46,152 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:26:55,609 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:27:19,252 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:27:44,464 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:27:51,810 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
+2019-08-14 16:28:00,946 INFO: Microblog startup [in D:\MyProjects\flask_tutorial_projects\microblog\app\__init__.py:74]
